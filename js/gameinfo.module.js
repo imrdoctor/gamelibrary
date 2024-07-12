@@ -44,7 +44,7 @@ export class Gameinfo {
                         <h5>Platform: <span class="badge text-bg-info">${data.platform}</span></h5>
                         <h5>Status: <span class="badge text-bg-info">${data.status}</span></h5>
                         <p>${data.description}</p>
-                        <a class="text-white btn btn-outline-warning mt-2"  href="${data.game_url}">Show Game</a>
+                        <a target="_blank" class="text-white btn btn-outline-warning mt-2"  href="${data.game_url}">Show Game</a>
                     </div>
                 </div>
             </div>
