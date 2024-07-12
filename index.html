@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Reviews</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- website icon -->
+     <link rel="icon" href="/imgs/logo.png" type="image/x-icon" />
+</head>
+
+<body>
+    <!-- start main section -->
+    <main class="main-sec">
+        <div class="top_img">
+            <img class="w-100 back-img" src="./imgs/backhead.png" alt="" />
+        </div>
+        <div class="container sticky z-1">
+            <nav class="navbar navbar-expand-lg rounded-4 ">
+                <div class="container">
+                    <a class="navbar-brand text-white" href="#"> <img class="w-25" src="./imgs/logo.png" alt="Website Logo"> Game Reviews</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">mmorpg</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">shooter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">sailing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">permadeath</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">superhero</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">pixel</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="games text-white">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 allGames">
+                </div>
+            </div>
+        </div>
+        <div class="loading position-absolute start-0 end-0 top-0 bottom-0 z-3">
+            <div class="loader position-absolute top-50 start-50 z-3 translate-middle">
+            </div>
+        </div>
+    </main>
+        <!-- End main section -->
+
+        <!-- Start Game Information -->
+        <div class="game-info mt-3 text-white d-none">
+            
+        </div>
+        <!-- End Game Information -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js" type="module"></script>
+</body>
+
+</html>
+
+
+
+
